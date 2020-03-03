@@ -1,7 +1,7 @@
 # marlin-sunlu_s8
 
 THIS IS A PRE-RELEASE VERSION. IF YOU DO NOT KNOW HOW TO BACKUP AND RESTORE YOUR ACTUAL FIRMWARE DO NOT TRY IT YET.
-(or do it at your own risk)
+(or do it at your own risk). IN ANY CASE CHECK THE EXTRA INFORMATION SECTION.
 
 Configuration files of Marlin 1.1.x bugfix version for sunlu s8 3d printer.
 
@@ -29,4 +29,14 @@ avrdude -C/AbsolutePathToConfigFiles/avrdude.conf -v -patmega2560 -cwiring -P/de
 
 You will/may have to change AbsolutePathToConfigFiles, /dev/ttyUSB0 and AbsolutePathWhereToBackup
 
+To be confident with your backup it is a good practice to perform it twice with different names and do a diff to check that everything goes well.
+
+To restore the firmare, the command is:
+
+avrdude -C/AbsolutePathToConfigFiles/avrdude.conf -v -patmega2560 -cwiring -P/dev/ttyUSB0 -b115200 -D -Uflash:w:/AbsolutePathWhereToBackup/dump.hex:i 
+
 # Tests are welcome
+
+# Acknowledgement
+
+* Thanks to Michael Reynolds for comments and help
