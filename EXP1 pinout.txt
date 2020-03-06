@@ -1,0 +1,10 @@
+	       EXP1
+---------------------------------
+| VCC		| LCD RS	|
+| RESET		| LCD EN	|
+| BTN EN2	| BTN ENC	|
+| BTN EN1	| LCD D4	C
+| NC		| NC		|
+| NC		| GND		|
+| BEEPER	| NC		|
+---------------------------------
