@@ -41,4 +41,4 @@ avrdude -C/AbsolutePathToConfigFiles/avrdude.conf -v -patmega2560 -cwiring -P/de
 
 * Thanks to Sébastien Agostini for exp1 pinout
 * Thanks to Michael Reynolds for comments and help
-* Sunlu for sharing a version of their firmware
+* Thanks to Sunlu for sharing a version of their firmware
