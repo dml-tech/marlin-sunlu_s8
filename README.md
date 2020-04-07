@@ -1,6 +1,6 @@
 # marlin-sunlu_s8
 
-THIS IS A PRE-RELEASE VERSION. IF YOU DO NOT KNOW HOW TO BACKUP AND RESTORE YOUR ACTUAL FIRMWARE DO NOT TRY IT YET.
+WARNING: IF YOU DO NOT KNOW HOW TO BACKUP AND RESTORE YOUR ACTUAL FIRMWARE DO NOT TRY IT YET.
 (or do it at your own risk). IN ANY CASE CHECK THE EXTRA INFORMATION SECTION.
 
 Configuration files of Marlin 1.1.x bugfix version for sunlu s8 3d printer.
@@ -41,4 +41,5 @@ avrdude -C/AbsolutePathToConfigFiles/avrdude.conf -v -patmega2560 -cwiring -P/de
 
 * Thanks to Sébastien Agostini for exp1 pinout
 * Thanks to Michael Reynolds for comments and help
+* Thanks to Endy Fung for his support and help
 * Thanks to Sunlu for sharing a version of their firmware
