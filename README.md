@@ -1,11 +1,22 @@
 # marlin-sunlu_s8
 
-WARNING: IF YOU DO NOT KNOW HOW TO BACKUP AND RESTORE YOUR ACTUAL FIRMWARE DO NOT TRY IT YET.
-(or do it at your own risk). IN ANY CASE CHECK THE EXTRA INFORMATION SECTION.
+----------------------------------------------------------------------------
+
+04/08/2020:
+I WOULD LIKE TO THANKS SUNLU COMPANY AND ESPECIALLY ROCKY YOUNG
+FOR THEIR SIGNIFICANT EFFORT TO PROVIDE ME HUGE AMOUNT OF PETG AND PLA 
+AT A VERY LOW PRICE TO PRINT FACE SHIELD PROTECTIONS 
+TO PROTECT HOSPITAL STAFF AGAINST COVID-19
+
+----------------------------------------------------------------------------
+
 
 Configuration files of Marlin 1.1.x bugfix version for sunlu s8 3d printer.
 
 This is not part of an official firmware check the sunlu warranty limitation.
+
+WARNING: IF YOU DO NOT KNOW HOW TO FLASH A FIRMWARE PLEASE CHECK THE WEB FIRST.
+(or do it at your own risk). IN ANY CASE CHECK THE EXTRA INFORMATION SECTION FIRST.
 
 # Notes
 
