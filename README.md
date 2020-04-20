@@ -32,6 +32,8 @@ The filament runout detector is activated
 
 and some others...
 
+
+
 # Extra information
 
 I recommand to backup your firmware before uploading a new one. To do so on a Linux:
